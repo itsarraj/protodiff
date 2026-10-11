@@ -7,6 +7,12 @@ a BSR account. Points a plain text diff of two `.proto` files at the
 one question that actually matters before merging: *does this break
 an existing client compiled against the old schema?*
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
